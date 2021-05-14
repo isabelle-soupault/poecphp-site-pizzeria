@@ -1,3 +1,8 @@
 .bgSlogan{
-    background-image: url="img/";
+    background-image: url("../img/imgSlogan.jpg");
+    height:60vh;
+} 
+
+.ladyTrump{
+    height: 10vh;
 }
