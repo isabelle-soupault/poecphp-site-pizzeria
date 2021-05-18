@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
     <script src="https://kit.fontawesome.com/7a72359a2f.js" crossorigin="anonymous"></script>
 
-    <title>Accueil</title>
+    <title>Chez Tonio - Accueil</title>
 </head>
 
 <body>
@@ -63,28 +63,33 @@
             </div>
         </nav>
     </header>
-    <!-- Bloc slogan / image -->
-    <div class="bg-light p-5 rounded-lg m-3 bgSlogan">
-        <div class="bg-transparent text-success fw-bold fs-2 p-5 rounded-lg m-3">
-            <h1 class="display-4 text-center mb-5 fw-bold">Chez Tonio</h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col offset text-center">
-                        <p>récompensé par le label <br><span class="fw-bold"> "Lady and the Tramp"</span></p>
-                    </div>
-                    <div class="col">
-                        <p><img src="assets/img/ladyTramp.png" alt="ladyTramp" title="ladyTramp" class="ladyTramp"></p>
-                    </div>
+
+    <!-- Main Banner -->
+    <section>
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center" style="background-image:url('assets/img/tomateMozzaBasilicbanner.jpg'); height: 90vh;" >
+            <div class="col-sm-10 text-center">
+              <h1 class="text-capitalize text-light display-1"><strong>Chez Tonio !</strong></h1>
+              <h2 class="font-weight-light font-italic text-light">Des pizzas traditionnelles au feu de bois pour toute la famille</h2>
+              <div class="row">
+                <div class="col offset text-center text-light display-2">
+                    <p>7j/7 de 10h à 22h <br><span class="fw-bold">Tel: 01 23 45 67 89</span></p>
+                </div>
+                <div class="col text-light display-4">
+                    <p>Récompensé par le label <br><span class="fw-bold">"Lady and the Tramp"</span></p>
+                    <p><img src="assets/img/ladyTramp.png" alt="ladyTramp" title="ladyTramp" class="ladyTramp"></p>
                 </div>
             </div>
-            <div class="container">
-                <p class="text-center">Des pizzas traditionnelles au feu de bois pour toute la famille </p>
             </div>
+          </div>
         </div>
-    </div>
+    </section>    
+<!--Fin Banner-->
+
 
     <!-- bloc carousel -->
-    <div class="container">
+    <div class="container p-5">
+        <h2 class="display-1 text-center mb-5"><strong>Les Pizzas tendances !</strong></h2>
         <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <!-- Slide 1 -->
@@ -410,69 +415,58 @@
         </div>
     </div>
 
-    <!-- bloc expertise -->
-    <section class="p-5" id="Projects">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="d-lg-flex align-items-center min-vh-25 d-flex justify-content-lg-between">
-                    <div class="col-md-12 col-lg-7 text-center">
-                        <div class="container">
-                            <h2 class="text-warning display-4">Notre expertise à votre service !</h2>
-                            <p class="lead text-secondary"> Utiliser un feu de bois est pour vous source de garantie
-                                !
-                            </p>
-                            <p>Un feu de bois ne permet pas l'usage de fromages industriels. <br> Chez nous tous nos
-                                fromages
-                                sont de <span class="fw-bold text-uppercase">première qualité.</span></p>
-                            <p class="lead text-secondary"> Une pate a pizza préparée tous les matins
-                            </p>
-                            <p>La pate est fraiche, craquante lors de la dégustation<br> Notre pizzaiolo utilise une
-                                recette <span class="fw-bold text-uppercase">traditionnelle italienne</span> venant
-                                de sa grand-mama d'Agnone.</p>
+    <!--Debut About Us Directeur -->
+    <section class="p-5 bg-secondary" id="Expertise">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="d-lg-flex align-items-center min-vh-25">
+              <div class="col-md-12 col-lg-7 text-center mx-3">
+                <h2 class="text-warning display-4 h1">Notre expertise à votre service !</h2>
+                <p class="lead text-light"> Utiliser un feu de bois est pour vous source de garantie
+                    !
+                </p>
+                <p class="lead text-light">Un feu de bois ne permet pas l'usage de fromages industriels. <br> Chez nous tous nos
+                    fromages
+                    sont de <span class="fw-bold text-uppercase">première qualité.</span></p>
+                <p class="lead text-light"> Une pâte a pizza préparée tous les matins
+                </p>
+                <p class="lead text-light">La pâte est fraiche, craquante lors de la dégustation<br> Notre pizzaiolo utilise une
+                    recette <span class="fw-bold text-uppercase">traditionnelle italienne</span> venant
+                    de sa grand-mama d'Agnone.</p>
+              </div>
+              <div class="col-md-12 col-lg-5">
+                <img src="assets/img/pizzaFlame.jpg" class="img-thumbnail" alt="Pétrissage" title="Pétrissage">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Fin About Us Directeur-->
 
+        <!-- bloc contact -->
+
+        <div class="container-fluid bg-success">
+            <div class="row">
+                <div class="col-sm-7 text-center fw-bold pt-2 lead d-lg-flex align-items-center min-vh-25 justify-content-center">
+                    <p>Chez Tonio <br> 125 allée des Peupliers <br> 12 5411 Nouvelle Ancienne Nouvelle Orléans <br> France</p>
+                </div>
+                <div class="col-sm-3 pt-2">
+                    <div class="container-fluid">
+                        <div class="map-responsive">
+                            <iframe width="225" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                src="https://www.openstreetmap.org/export/embed.html?bbox=1.4511179924011233%2C47.599659608488395%2C1.464250087738037%2C47.604774168947614&amp;layer=mapnik"
+                                style="border: 1px solid black"></iframe><br /><small><a
+                                    href="https://www.openstreetmap.org/#map=17/47.60222/1.45768&amp;layers=N">Afficher
+                                    une carte plus grande</a></small>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-5">
-                        <img src="assets/img/pizzaFlame.jpg" class="img-thumbnail" alt="four à bois"
-                            title="four à bois">
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <!-- bloc contact -->
-
-    <div class="container-fluid bg-success accueilContact">
-        <div class="row">
-            <div
-                class="col-sm-7 text-center fw-bold pt-2 lead d-lg-flex align-items-center min-vh-25 justify-content-center">
-                <ul>
-                    <li>Chez Tonio</li>
-                    <li>125 allée des Peupliers</li>
-                    <li>12 5411 Nouvelle Ancienne Nouvelle Orléans</li>
-                    <li>France</li>
-                </ul>
-            </div>
-            <div class="col-sm-3 pt-2">
-                <div class="container-fluid">
-                    <div class="map-responsive">
-                        <iframe width="225" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                            src="https://www.openstreetmap.org/export/embed.html?bbox=1.4511179924011233%2C47.599659608488395%2C1.464250087738037%2C47.604774168947614&amp;layer=mapnik"
-                            style="border: 1px solid black"></iframe><br /><small><a
-                                href="https://www.openstreetmap.org/#map=17/47.60222/1.45768&amp;layers=N">Afficher
-                                une carte plus grande</a></small>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
 
 
 <!-- PARTIE DU FOOTER-->
-  <footer class="bg-dark mt-5">
+  <footer class="bg-dark">
     <div class="container">
       <div class="row">
         <div class="col text-center">

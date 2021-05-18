@@ -43,10 +43,6 @@ body{
     border: 1px solid black;
 }
 
-.ladyTrump{
-    height: 10vh;
-}
-
 .carousel-control-prev-icon{
     margin-right:45%;
     margin-bottom:45%;
@@ -102,12 +98,41 @@ body{
 
 
 
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and  (min-width: 992px) and (max-width: 1200px){
     .bg-slogan{
         height: 40vh;   
     }
-
+   
+    .carousel-control-prev-icon{
+        margin-right:45%;
+        margin-bottom:115%;
+    }
     
+    .carousel-control-next-icon{
+        margin-left:45%;
+        margin-bottom:115%;
+    }
+    
+}
+
+@media screen and  (min-width: 768px) and (max-width: 992px){
+    .carousel-control-prev-icon{
+        margin-right:45%;
+        margin-bottom:200%;
+    }
+    
+    .carousel-control-next-icon{
+        margin-left:45%;
+        margin-bottom:200%;
+    }
+    
+}
+
+@media screen and  (min-width: 576px) and (max-width: 768px){
+    .bg-slogan{
+        height: 40vh;   
+    }
+       
 }
 
 @media screen and (min-width: 768px){
