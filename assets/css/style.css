@@ -77,6 +77,16 @@ body{
 .card-text{
     height: 70px;
 }
+/* Modification des controleurs du carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-size: 80%, 80%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
 
 @media screen and (min-width: 576px) and (max-width: 768px){
     .bg-slogan{
