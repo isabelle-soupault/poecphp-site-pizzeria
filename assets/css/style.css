@@ -47,6 +47,15 @@ body{
     height: 10vh;
 }
 
+.carousel-control-prev-icon{
+    margin-right:45%;
+    margin-bottom:45%;
+}
+
+.carousel-control-next-icon{
+    margin-left:45%;
+    margin-bottom:45%;
+}
 .accueilContact ul li {
     list-style-type: none;
 }
