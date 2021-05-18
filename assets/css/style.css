@@ -1,10 +1,19 @@
-/* --- Navbar --- */
+body{
+    background: linear-gradient(to right, #fff, #fcfcfc);    
+}
+
+/*---- Navbar ---- */
 .navbar-brand:hover{
     transform:scale(1.1) rotate(3deg);     
 }
 
+#navbarNav .btn{
+    min-width: 125px;
+}
+
 #navbarNav .btn:hover{
-    transform:scale(1.1);  
+    transform:scale(1.1);
+    min-width: 125px;
 }
 
 #tel{
@@ -15,7 +24,7 @@
 #tel:hover{
     font-size:1.03em; 
 }
-/*--------------*/
+/*------- Page d'Acceuil  -------*/
 
 .bgSlogan{
     background-image: url("../img/imgSlogan.jpg");
@@ -28,4 +37,61 @@
 .carousel img{
     height:60vh;
 
+}
+
+/*------- Page Nos pizzas---------*/
+#h1-nos-pizzas,
+.h2-separator{
+    display: inline-block;
+    position: relative;     
+}
+
+#h1-nos-pizzas::after,
+#h1-nos-pizzas::before,
+.h2-separator::after,
+.h2-separator::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    top: 50%;
+    right: 110%;
+    background: black; 
+}
+
+#h1-nos-pizzas::after,
+.h2-separator::after{
+    left: 110%; 
+}
+
+.bg-slogan{
+    background: center / contain no-repeat url(../img/originale.jpg);
+    height: 30vh;  
+    color:green;
+    font-weight: 900;
+    font-size: 8vw;
+    text-align: center;
+    vertical-align: center;    
+}
+
+.card-text{
+    height: 70px;
+}
+
+@media screen and (min-width: 576px){
+    .bg-slogan{
+        height: 40vh;   
+    }
+}
+
+@media screen and (min-width: 768px){
+    .bg-slogan{
+        height: 50vh;   
+    }
+}
+
+@media screen and (min-width: 992px){
+    .bg-slogan{
+        height: 70vh;   
+    }
 }
