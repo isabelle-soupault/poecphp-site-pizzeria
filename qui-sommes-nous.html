@@ -18,12 +18,11 @@
       <a class="navbar-brand text-light fst-italic" href="index.html" title="Accueil"><img
           src="assets/img/logoPizza.png" width="70" height="70" alt="Logo" title="logo représentant un pizzaiolo">Chez
         Tonio</a>
-      </div>
 
       <!-- Téléphone & horaires pour petits écrans -->
       <ul class="navbar-nav ms-md-auto d-md-none">
         <li class="nav-item text-center">
-          <a id="tel" href="tel:+123456789">Tel: 01 23 45 67 89<br>7j/7 de 10h à 22h</a>
+          <a class="tel" href="tel:+123456789">Tel: 01 23 45 67 89<br>7j/7 de 10h à 22h</a>
         </li>
       </ul>
 
@@ -50,13 +49,14 @@
         <!-- Téléphone & horaires pour moyens et grands écrans -->
         <ul class="navbar-nav ms-md-auto d-none d-md-inline">
           <li class="nav-item text-center">
-            <a id="tel" href="tel:+123456789" title="Numéro de téléphone">Tel: 01 23 45 67 89<br>7j/7 de 10h à 22h</a>
+            <a class="tel" href="tel:+123456789" title="Numéro de téléphone">Tel: 01 23 45 67 89<br>7j/7 de 10h à
+              22h</a>
           </li>
         </ul>
         <ul class="navbar-nav ms-md-5">
           <li class="nav-item text-center">
-            <a class="btn btn-success rounded mx-2 my-1 text-light p-2"
-              href="C:\Users\isabe\poecphp-site-pizzeria\index.html" title=" >Formulaire de Contact">Contactez-nous</a>
+            <a class="btn btn-success rounded mx-2 my-1 text-light p-2" href="#Contact"
+              title=" >Formulaire de Contact">Contactez-nous</a>
           </li>
         </ul>
       </div>
@@ -75,7 +75,6 @@
               !</h2>
           </div>
         </div>
-      </div>
       </div>
     </section>
     <!--Fin Banner-->
@@ -182,12 +181,12 @@
                   <input type="text" class="form-control" id="lastname" placeholder="DUPONT">
                 </div>
                 <div class="form-group">
-                  <label for="firstname" class="text-light my-1">Prénom</label>
-                  <input type="text" class="form-control" id="firstname" placeholder="Lorenzo">
-                </div>
-                <div class="form-group">
                   <label for="email" class="text-light my-1">Email</label>
                   <input type="email" class="form-control" id="email" placeholder="lorenzo_dupont@gmail.com">
+                </div>
+                <div class="form-group">
+                  <label for="titre-message" class="text-light my-1">Titre du message</label>
+                  <input type="email" class="form-control" id="titre-message" placeholder="Titre du message">
                 </div>
                 <div class="form-group">
                   <label for="message" class="text-light my-1">Message</label>

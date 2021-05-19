@@ -18,12 +18,13 @@
         <nav class="container-fluid flex-wrap">
             <a class="navbar-brand text-light fst-italic" href="index.html" title="Page d'Accueil"><img
                     src="assets/img/logoPizza.png" width="70" height="70" alt="Logo" title="logo">Chez Tonio</a>
-            </div>
+
 
             <!-- Téléphone & horaires pour petits écrans -->
             <ul class="navbar-nav ms-md-auto d-md-none">
                 <li class="nav-item text-center">
-                    <a id="tel" href="tel:+123456789" title="Numéro de téléphone et heures de contact">Tel: 01 23 45 67
+                    <a class="tel" href="tel:+123456789" title="Numéro de téléphone et heures de contact">Tel: 01 23 45
+                        67
                         89<br>7j/7 de 10h à 22h</a>
                 </li>
             </ul>
@@ -51,7 +52,7 @@
                 <!-- Téléphone & horaires pour moyens et grands écrans -->
                 <ul class="navbar-nav ms-md-auto d-none d-md-inline">
                     <li class="nav-item text-center">
-                        <a id="tel" href="tel:+123456789" title="Numéro de téléphone et horaires">Tel: 01 23 45 67
+                        <a class="tel" href="tel:+123456789" title="Numéro de téléphone et horaires">Tel: 01 23 45 67
                             89<br>7j/7 de 10h à 22h</a>
                     </li>
                 </ul>
@@ -68,12 +69,16 @@
     <!-- Main Banner -->
     <section>
         <div class="container-fluid">
-          <div class="row justify-content-center align-items-center" style="background-image:url('assets/img/tomateMozzaBasilicbanner2.jpg'); height: 90vh;" >
-            <div class="col-sm-10 text-center">
-              <h1 class="text-capitalize text-light display-1"><strong>Chez Tonio !</strong></h1>
-              <h2 class="display-5 text-light mb-5">Des pizzas traditionnelles au feu de bois pour toute la famille</h2>
-              <div class="col-sm-12 text-center text-warning display-3 mb-5">
-                <p><strong>7j/7 de 10h à 22h</strong> <br><strong>Tel: 01 23 45 67 89</strong></p>
+            <div class="row justify-content-center align-items-center"
+                style="background-image:url('assets/img/tomateMozzaBasilicbanner2.jpg'); height: 90vh;">
+                <div class="col-sm-10 text-center">
+                    <h1 class="text-capitalize text-light display-1"><strong>Chez Tonio !</strong></h1>
+                    <h2 class="display-5 text-light mb-5">Des pizzas traditionnelles au feu de bois pour toute la
+                        famille</h2>
+                    <div class="col-sm-12 text-center text-warning display-3 mb-5">
+                        <p><strong>7j/7 de 10h à 22h</strong> <br><strong>Tel: 01 23 45 67 89</strong></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -125,7 +130,7 @@
                             </div>
                             <div class="col-12 col-md-4 d-none d-md-block">
                                 <div class="card shadow">
-                                    <img class="card-img-top" src="assets/img/pizza-pepperoni.jpg" alt="pizza peperoni"
+                                    <img class="card-img-top" src="assets/img/pizza-pepperoni.jpg" title="pizza peperoni"
                                         alt="photo de pizza peperoni">
                                     <div class="card-body">
                                         <h2 class="card-title fs-3">Pepperoni</h2>
@@ -199,7 +204,7 @@
                         <div class="row">
                             <div class="col-12 col-md-4">
                                 <div class="card shadow">
-                                    <img class="card-img-top" src="assets/img/pizza-dauphine.jpg" alt="pizza dauphine"
+                                    <img class="card-img-top" src="assets/img/pizza-dauphine.jpg" title="pizza dauphine"
                                         alt="photo d'une pizza aux pommes de terres">
                                     <div class="card-body">
                                         <h2 class="card-title fs-3">Dauphine</h2>
@@ -456,24 +461,29 @@
 
     <!-- bloc contact -->
 
-        <div class="container-fluid bg-success">
-            <div class="row">
-                <div class="d-lg-flex align-items-center min-vh-25 my-5">
+    <div class="container-fluid bg-success">
+        <div class="row">
+            <div class="d-lg-flex align-items-center min-vh-25 my-5">
                 <div class="col-12 col-lg-8 text-center lead align-items-center">
-                    <h2 class="display-4"><strong>Chez Tonio<br> 125 allée des Peupliers <br> 12 5411 Nouvelle Ancienne Nouvelle Orléans <br> France</h2></strong>
+                    <h2 class="display-4"><strong>Chez Tonio<br> 125 allée des Peupliers <br> 12 5411 Nouvelle Ancienne
+                            Nouvelle Orléans <br> France</strong></h2>
                 </div>
                 <div class="col-12 col-lg-4 pt-2 text-center justify-items-center">
-                        <div class="map-responsive align-items-center">
-                            <iframe class="mb-3" title="Localisation de la Pizzeria" width="500" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=1.4511179924011233%2C47.599659608488395%2C1.464250087738037%2C47.604774168947614&amp;layer=mapnik"
-                                style="border: 1px solid black"></iframe>
-                                <br><a href="https://www.openstreetmap.org/#map=17/47.60222/1.45768&amp;layers=N" title="Carte en grand écran" class="text-light font-weight-light font-italic text-capitalize">Afficher
-                                    une carte plus grande</a>
-                        </div>
+                    <div class="map-responsive align-items-center">
+                        <iframe class="mb-3" title="Localisation de la Pizzeria" width="500" height="300"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://www.openstreetmap.org/export/embed.html?bbox=1.4511179924011233%2C47.599659608488395%2C1.464250087738037%2C47.604774168947614&amp;layer=mapnik"
+                            style="border: 1px solid black"></iframe>
+                        <br><a href="https://www.openstreetmap.org/#map=17/47.60222/1.45768&amp;layers=N"
+                            title="Carte en grand écran"
+                            class="text-light font-weight-light font-italic text-capitalize">Afficher
+                            une carte plus grande</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
 
 
     <!-- PARTIE DU FOOTER-->
