@@ -21,8 +21,9 @@ body{
     color: #fff;    
 }
 
-#tel:hover{
+.tel:hover{
     font-size:1.03em; 
+    color: #fff; 
 }
 /*------- Page d'Accueil  -------*/
 
