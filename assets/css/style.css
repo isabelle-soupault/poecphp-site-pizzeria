@@ -89,6 +89,12 @@ body{
     height: 50px;
 }
 
+/* --- Page Qui sommes-nous --- */
+
+.checkbox-validation:checked{
+    background: white;
+}
+
 
 @media screen and (max-width: 768px){
 
