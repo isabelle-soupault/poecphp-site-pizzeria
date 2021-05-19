@@ -86,17 +86,101 @@ body{
 }
 
 .card-text{
-    height: 70px;
+    height: 50px;
 }
 
 
+@media screen and (max-width: 768px){
 
-
-@media screen and  (min-width: 992px) and (max-width: 1200px){
-    .bg-slogan{
-        height: 40vh;   
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        height: 45px;
+        width: 45px;      
+        background-size: 80%, 80%;      
+    }    
+        
+    .carousel-control-prev-icon{
+        margin-right:45%;
+        margin-bottom:10%;
     }
-   
+    
+    .carousel-control-next-icon{
+        margin-left:45%;
+        margin-bottom:10%;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+    .card-title{
+        height: 55px;
+    }
+
+    .card-text{
+        height: 75px;
+    }
+
+    .carousel .card-text{
+        height: 90px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        height: 45px;
+        width: 45px;      
+        background-size: 80%, 80%;      
+    }
+    
+    .carousel-control-prev-icon{
+        margin-right:50%;
+        margin-bottom:200%;
+    }
+    
+    .carousel-control-next-icon{
+        margin-left:50%;
+        margin-bottom:200%;
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+    .card-title{
+        height: 60px;
+    }
+
+    .carousel .card-text{
+        height: 80px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        height: 60px;
+        width: 60px;      
+        background-size: 80%, 80%;      
+    }
+
+    .carousel-control-prev-icon{
+        margin-right:50%;
+        margin-bottom:100%;
+    }
+    
+    .carousel-control-next-icon{
+        margin-left:50%;
+        margin-bottom:100%;
+    }    
+    
+}
+
+
+@media screen and (min-width: 1200x) and (max-width: 1400px){
+
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        height: 100px;
+        width: 100px;    
+        background-size: 80%, 80%;   
+    }
+
     .carousel-control-prev-icon{
         margin-right:45%;
         margin-bottom:115%;
@@ -109,34 +193,11 @@ body{
     
 }
 
-@media screen and  (min-width: 768px) and (max-width: 992px){
-    .carousel-control-prev-icon{
-        margin-right:45%;
-        margin-bottom:200%;
-    }
-    
-    .carousel-control-next-icon{
-        margin-left:45%;
-        margin-bottom:200%;
-    }
-    
-}
 
-@media screen and  (min-width: 576px) and (max-width: 768px){
-    .bg-slogan{
-        height: 40vh;   
-    }
-       
-}
 
-@media screen and (min-width: 768px){
-    .bg-slogan{
-        height: 50vh;   
-    }
-}
 
-@media screen and (min-width: 992px){
-    .bg-slogan{
-        height: 70vh;   
-    }
-}
+
+
+
+
+
